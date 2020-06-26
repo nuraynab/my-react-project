@@ -1,7 +1,6 @@
 import React from "react";
 import {Breadcrumb, BreadcrumbItem, Button, Label, Row, Col } from 'reactstrap'
 import {Link} from "react-router-dom";
-import FormFeedback from "reactstrap/es/FormFeedback";
 import {Control, LocalForm, Errors} from "react-redux-form";
 
 const required = (val) => val && val.length;
