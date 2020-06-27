@@ -106,7 +106,6 @@ function RenderDish({dish}){
 
 function RenderComments({comments, addComment, dishId}){
     const comment = comments.map((dishComment) => {
-        let date = new Date(dishComment.date);
         return (
             <li key={dishComment.id}>
                 <p>{dishComment.comment}</p>
